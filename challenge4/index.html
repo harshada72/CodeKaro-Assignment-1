@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge 4</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <h1>Flodesk</h1>
+      <h2>Welcome back!</h2>
+
+      <div class="login-container">
+        <form action="/login" method="post">
+          <div>
+            <input
+                class="input-field"
+              placeholder="Enter your email"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+            <br/>
+            <input
+              class="input-field"  
+              placeholder="Enter your password"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+
+            <button type="submit">Log in to Flodesk</button>
+
+          <div>
+            <p>Not a member? <a href="#">Sign Up</a></p>
+
+            <a href="#">Forgot your Password?</a>
+          </div>
+        </form>
+        <p>
+          By continuing, you agree to Flodesk's <a href="#">terms</a> and
+          acknowledge you've read our <a href="#">privacy policy</a>.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
